@@ -1,0 +1,771 @@
+@charset "utf-8";
+
+/* Document */
+
+/* =======================================
+font-family
+========================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+body{
+  font-size: 14px;
+    font-family: Lato, "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+/* =======================================
+color
+========================================== */
+.red-a {
+  color: #c70044;
+}
+
+/* =======================================
+icon
+========================================== */
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*=======================
+btn
+=======================*/
+.btn_box {
+  display: inline-block;
+    color: #fff;
+      border-radius: 3px;
+      box-sizing: border-box;
+}
+/*
+.btn-inquiry a {
+  margin-top: 30px;
+  width: 300px;
+  display: block;
+  padding: 20px 20px;
+  background-color: #aaa;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+*/
+.btn-a {
+  padding: 10px 35px 7px 35px;
+  border:solid 1px #d8a228;
+}
+.btn-a:hover {
+  background: #d8a228;
+}
+.sns-box .btn_box {
+ 
+}
+.btn-fb {
+  padding: 6px;
+  width: 40px;
+  height: 40px;
+  background: #305097;
+
+}
+.btn-twiiter {
+    padding: 6px;
+  width: 40px;
+  height: 40px;
+  background:#1DA1EA;
+}
+.btn-youtube {
+      padding: 6px;
+  width: 40px;
+  height: 40px;
+  background:#b31217;
+}
+
+
+/* =======================================
+table
+========================================== */
+
+table {
+  width: 100%;
+  border: solid 1px #ccc;
+}
+th,td {
+  padding: 5px 15px;
+}
+th {
+  background: #f4f5fa;
+  border: solid 1px #ccc;
+}
+td {
+  border: solid 1px #ccc;
+  vertical-align: middle;
+}
+
+/* 検索 */
+
+/*
+.search th {
+  width: 15%
+}
+*/
+.search .th01 {
+  width: 15%;
+}
+.search .th02 {
+  width: 15%;
+}
+.td01 {
+  width: 50%;
+}
+.td02 {
+  width: 20%;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
+
+/*------------------------------------------------------------------------------
+ログイン
+------------------------------------------------------------------------------*/
+
+
+.login {
+  width: 90%;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+/*
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #28d;
+}
+*/
+
+.login-header {
+  background: #30699f;
+  padding: 10px 15px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #f4f5fa;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+/*
+.login input[type="submit"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #17c;
+}
+*/
+/* Buttons' focus effect */
+.login input[type="submit"] {
+  width: auto;
+}
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+/*------------------------------------------------------------------------------
+所有TOKEN
+------------------------------------------------------------------------------*/
+.search th,
+.search td {
+  padding: 5px 5px;
+  letter-spacing: 0;
+}
+
+.non-token td{
+  padding:15px 10px;
+}
+
+/*------------------------------------------------------------------------------
+ユーザー情報変更
+------------------------------------------------------------------------------*/
+.title-first {
+  padding: .5em .75em;
+  background-color: #30699f;
+  color: #fff;
+  font-size: 18px;
+}
+.user-info {
+  margin-top: 20px;
+}
+.user-info th {
+  width: 30%;
+  line-height: 30px;
+}
+
+/*------------------------------------------------------------------------------
+footer
+------------------------------------------------------------------------------*/
+footer {
+  padding: 20px 0;
+  margin-top: 50px;
+  background: #30699f;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+.footer-info li {
+  margin-left: 20px;
+  float: left;
+}
+.link-box {
+  margin-top: 20px;
+}
+.sns-box li {
+  margin-right: 10px;
+  float: left;
+}
+footer a:hover {
+  color: #fff;
+}
+.copyright {
+  margin-top: 20px;
+}
+
+/*------------------------------------------------------------------------------
+gnav
+------------------------------------------------------------------------------*/
+
+/* デモなので簡易的なリセット */
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+*::after,
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background: #eee;
+}
+article {
+  height: 1000px;
+  margin: 100px auto;
+  text-align: center;
+  line-height: 1.9;
+}
+article p {
+  margin-bottom: 1em;
+}
+a {
+  color: #0b8793;
+}
+#main-visual {
+
+  background: #f5f5f5;
+
+  background: -webkit-linear-gradient(-45deg, #0062B8, #850047);
+  background:    -moz-linear-gradient(-45deg, #0062B8, #850047);
+  background:     -ms-linear-gradient(-45deg, #0062B8, #850047);
+  background:      -o-linear-gradient(-45deg, #0062B8, #850047);
+  background:         linear-gradient(-45deg, #0062B8, #850047);
+
+  height: 100px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  border-top: solid 1px #bbb;
+}
+footer a {
+  color: #666;
+  text-decoration: none;
+}
+*/
+
+/* ▲▲▲ここまではナビゲーションに関係ない設定▲▲▲ */
+
+header {
+  background: #f4f5fa;
+  position: fixed;
+}
+.inner {
+  width: 1024px;
+  margin: 0 auto;
+}
+.inner:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* header */
+#head-top {
+  font-size: 14px;
+  top: -100px;
+  /* position: absolute; */
+  width: 100%;
+  margin: 100px auto 0;
+  padding: 30px 0 0;
+  line-height: 1;
+  z-index: 999;
+}
+#head-top a, #head-top {
+  color: #333;
+  text-decoration: none;
+}
+#head-top .logo-head {
+  float: left;
+  font-size: 21px;
+}
+#nav-global {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: #30699f;
+}
+#nav-global ul {
+  top: 100px;
+  font-size: 14px;
+}
+#nav-global ul li {
+  float: left;
+  position: relative;
+}
+#nav-global ul li a {
+  padding: 0 30px;
+  color: #fff;
+}
+
+/* Btn Hover */
+#nav-global ul li:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  bottom: -20px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+#nav-global ul li:hover:after {
+  background: #fff;
+  bottom: -30px;
+}
+
+/* Fixed */
+
+
+/* Toggle Button */
+#nav-toggle {
+  display: none;
+  position: absolute;
+  right: 12px;
+  top: 14px;
+  width: 34px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 101;
+}
+#nav-toggle div {
+  position: relative;
+}
+#nav-toggle span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #666;
+  left: 0;
+  -webkit-transition: .35s ease-in-out;
+  -moz-transition: .35s ease-in-out;
+  transition: .35s ease-in-out;
+}
+#nav-toggle span:nth-child(1) {
+  top: 0;
+}
+#nav-toggle span:nth-child(2) {
+  top: 11px;
+}
+#nav-toggle span:nth-child(3) {
+  top: 22px;
+}
+.logo-head span {
+  margin-left: 20px;
+}
+.logo-head img {
+  width: 160px;
+  height: auto;
+  vertical-align: middle;
+}
+@media screen and (max-width:980px) {
+  .inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  #nav-global ul li a {
+    padding: 0 20px;
+  }
+  #head-top.fixed #nav-global ul li a {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width:640px) {
+  article {
+    margin-top: 60px;
+  }
+  #head-top, .inner {
+    width: 100%;
+    padding: 0;
+  }
+  #head-top {
+    top: 0;
+    position: fixed;
+    margin-top: 0;
+  }
+
+  /* Fixed reset */
+  #head-top.fixed {
+    padding-top: 0;
+    background: transparent;
+  }
+  #head-mobile {
+    background: #fff;
+    width: 100%;
+    height: 56px;
+    z-index: 999;
+    position: relative;
+  }
+  #head-top.fixed .logo-head, #head-top .logo-head {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    color: #333;
+    font-size: 16px;
+  }
+  .logo-head img {
+    height: 35px;
+    width: auto;
+  }
+  #nav-global {
+      margin-top: 0;
+    position: absolute;    /* 開いてないときは画面外に配置 */
+    top: -500px;
+    background: #30699f;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+  #nav-global ul {
+    list-style: none;
+    position: static;
+    right: 0;
+    bottom: 0;
+    font-size: 11px;
+  }
+  #nav-global ul li {
+    float: none;
+    position: static;
+  }
+  #nav-global ul li:after {
+    display: none;
+  }
+  #head-top #nav-global ul li a, #head-top.fixed #nav-global ul li a {
+    width: 100%;
+    display: block;
+    color: #fff;
+    padding: 18px 0;
+  }
+  #nav-toggle {
+    display: block;
+  }
+
+  /* #nav-toggle 切り替えアニメーション */
+  .open #nav-toggle span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    transform: rotate(315deg);
+  }
+  .open #nav-toggle span:nth-child(2) {
+    width: 0;
+    left: 50%;
+  }
+  .open #nav-toggle span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-315deg);
+    -moz-transform: rotate(-315deg);
+    transform: rotate(-315deg);
+  }
+
+  /* #nav-global スライドアニメーション */
+  .open #nav-global {
+
+    /* #nav-global top + #head-mobile height */
+    -moz-transform: translateY(556px);
+    -webkit-transform: translateY(556px);
+    transform: translateY(556px);
+  }
+}
+
+/*------------------------------------------------------------------------------
+header : 渋井追加
+------------------------------------------------------------------------------*/
+article {
+  margin-top: 180px;
+}
+
+/*------------------------------------------------------------------------------
+form : 渋井追加
+------------------------------------------------------------------------------*/
+/*
+input, button, textarea, select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+*/
+/* =======================================
+フォーム共通
+========================================== */
+input, button, textarea, select {
+  padding: 5px 10px;
+  /*
+  height: 35px;
+  line-height: 30px;
+  */
+  border: 1px solid #ccc;
+  font-size: 14px;
+  border-radius: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+input, select {
+}
+textarea {
+  width: 100%;
+}
+
+/*
+input {
+padding: 5px 10px;
+  border: solid 1px #aaa;
+  border-radius: 3px;
+  font-size: 14px;
+
+}
+*/
+textarea.inquiry {
+  width: 100%;
+}
+input[type="submit"], input[type="reset"] {
+  padding: 3px 30px;
+  letter-spacing: 0.2em;
+  background-color: #858587;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1 !important;
+}
+.form-btn:hover {
+  opacity: 0.8;
+}
+.form-control-wrap {
+  position: relative;
+}
+.form-textarea {
+  display: block;
+}
+/*
+.watermark_text {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  padding: 5px;
+  color: #bbb;
+  background-color: #efefef;
+}
+.watermark_b {
+  top: 0;
+}
+.hidden {
+  visibility: hidden;
+}
+*/
+
+.select-box select {
+  /* width: 100%; */
+  /* padding: 10px; */
+  margin-right: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background: #F4F5FC;
+  background-size: 20px, 100%;
+}
+
+
+/* ラジオボタン */
+input[type="radio"] {
+  display: none;
+}
+label {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  cursor: pointer;
+}
+label::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+}
+input[type="radio"]:checked + label::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: #30699f;
+  border-radius: 100%;
+}
+
+/* button-submit */
+.button-submit input{
+    font-weight:bold;
+    display:block;
+    text-align:center;
+    padding:10px 30px;
+    color:#fff;
+    background-color:#30699f;
+    border-radius:3px;
+    letter-spacing: 0.05em;
+    border:none;
+}
+.button-submit input:hover {
+     background-color:#d8a228;
+}
+
+
+/*------------------------------------------------------------------------------
+スマートフォン対応 画面の横幅が768px以下
+------------------------------------------------------------------------------*/
+@media (max-width:1024px) {
+
+  th, td {
+    font-size: 14px;
+  }
+
+  /* 横スクロール　*/
+  .horizontal-scroll {
+    overflow-x: scroll;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .scroll-wrap table {
+    width: 1170px !important;
+  }
+  .horizontal-scroll .scroll-wrap {
+    height: 100%;
+  }
+
+  /* ------ テーブル ------ */
+  .table-responsive {
+    width: 100%;
+    border-top: none;
+  }
+  .table-responsive th {
+    width: 100% !important;
+    border: none;
+    border-top:solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+  }
+  .table-responsive td {
+    padding-top: 10px;
+    border: none;
+  }
+  .table-responsive th, .table-responsive td {
+    width: auto;
+    display: block;
+    font-size: 14px;
+  }
+  input, button, textarea, select {
+    margin-bottom: 10px;
+  }
+  input[type="text"] {
+    width: 100%;
+  }
+  .input-zip input {
+    width: auto;
+  }
+}
